@@ -34,8 +34,7 @@ def print_counts(num_dict):
 
     for i in num_dict:
         print(f"{i} appears {num_dict[i]} times.")
-
-            
+      
 
 user_numbers = get_list()
 num_dict = count_nums(user_numbers)
